@@ -41,6 +41,7 @@ func main(){
 }
 
 func GetPeople(w http.ResponseWriter, r *http.Request) {
+
 	json.NewEncoder(w).Encode(people)
 }
 
